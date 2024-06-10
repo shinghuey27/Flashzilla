@@ -11,6 +11,9 @@
 		99C911952C16CD6F00DBE582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C911942C16CD6F00DBE582 /* ContentView.swift */; };
 		99C911972C16CD6F00DBE582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C911962C16CD6F00DBE582 /* Assets.xcassets */; };
 		99C9119A2C16CD6F00DBE582 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C911992C16CD6F00DBE582 /* Preview Assets.xcassets */; };
+		99C911A12C16D85A00DBE582 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C911A02C16D85A00DBE582 /* Card.swift */; };
+		99C911A32C16D87100DBE582 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C911A22C16D87100DBE582 /* CardView.swift */; };
+		99C911A52C16EB5100DBE582 /* EditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C911A42C16EB5100DBE582 /* EditCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		99C911942C16CD6F00DBE582 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99C911962C16CD6F00DBE582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C911992C16CD6F00DBE582 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99C911A02C16D85A00DBE582 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		99C911A22C16D87100DBE582 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		99C911A42C16EB5100DBE582 /* EditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		99C911862C16CD6F00DBE582 = {
 			isa = PBXGroup;
 			children = (
+				99C911A42C16EB5100DBE582 /* EditCard.swift */,
 				99C911912C16CD6F00DBE582 /* Flashzilla */,
 				99C911902C16CD6F00DBE582 /* Products */,
 			);
@@ -53,6 +60,8 @@
 			children = (
 				99C911922C16CD6F00DBE582 /* FlashzillaApp.swift */,
 				99C911942C16CD6F00DBE582 /* ContentView.swift */,
+				99C911A02C16D85A00DBE582 /* Card.swift */,
+				99C911A22C16D87100DBE582 /* CardView.swift */,
 				99C911962C16CD6F00DBE582 /* Assets.xcassets */,
 				99C911982C16CD6F00DBE582 /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C911952C16CD6F00DBE582 /* ContentView.swift in Sources */,
+				99C911A12C16D85A00DBE582 /* Card.swift in Sources */,
+				99C911A52C16EB5100DBE582 /* EditCard.swift in Sources */,
+				99C911A32C16D87100DBE582 /* CardView.swift in Sources */,
 				99C911932C16CD6F00DBE582 /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
